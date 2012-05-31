@@ -1,0 +1,27 @@
+[ui]
+username = Og Maciel <omaciel@ogmaciel.com>
+
+[extensions]
+hgk =
+patchbomb =
+hgext.pager =
+#forest =
+hgext.convert =
+#histedit = ~/Dropbox/Mercurial_Extensions/histedit/hg_histedit.py
+
+[forest]
+walkhg = no
+
+[pager]
+pager = LESS='FSRX' less
+
+[email]
+method = smtp
+from = Og Maciel <omaciel@ogmaciel.com>
+cc = Transifex devel list <transifex-devel@googlegroups.com>
+
+[smtp]
+host = smtp.gmail.com
+tls = true
+username = og.maciel@gmail.com
+password =
