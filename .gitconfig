@@ -1,0 +1,23 @@
+[user]
+	name = Og B. Maciel
+    email = ogmaciel@gnome.org
+[color]
+    ui = true
+    status = auto
+    diff = auto
+    branch = auto
+    interactive = auto
+
+[url "ssh://ogmaciel@git.gnome.org/git/"]
+    insteadof = gnome:
+[alias]
+    up = pull --rebase
+    ci = commit
+    st = status -s -b
+    co = checkout
+    br = branch
+    df = diff
+    dfw = diff --word-diff
+    timeline = log --graph --branches --pretty=oneline --decorate
+[log]
+    decorate = short
