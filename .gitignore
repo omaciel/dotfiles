@@ -19,3 +19,10 @@
 *.idea
 *.log
 *.pyc
+
+# emacs files not to track
+.emacs.d/.smex-items
+.emacs.d/ac-comphist.dat
+.emacs.d/backups/
+.emacs.d/elpa/
+.emacs.d/places
