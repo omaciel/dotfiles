@@ -1,0 +1,83 @@
+!! Foresight Green by Og Maciel
+!! inspired by Onyx-Citrus by Dana Jansens
+
+!! Menu background
+menu.items.bg: flat gradient vertical
+menu.items.bg.color: #303030
+menu.items.bg.colorTo: #080808
+
+!! Menu text
+menu.items.text.color: #b8b8b8
+menu.items.justify: left
+menu.items.disabled.text.color: #606060
+
+!! Menu headers
+menu.title.bg: raised splitvertical gradient
+menu.title.bg.color: #303030
+menu.title.bg.colorTo: #181818
+menu.title.text.color: white
+menu.title.text.justify: center
+
+!! Selected menu item
+menu.items.active.bg: raised splitvertical gradient
+menu.items.active.bg.color: #77ce73
+menu.items.active.bg.colorTo: #2ecd27
+menu.items.active.text.color: #white
+
+!! Titlebar
+window.active.title.bg: raised splitvertical gradient
+window.active.title.bg.color: #77ce73
+window.active.title.bg.colorTo: #2ecd27
+window.inactive.title.bg: gradient splitvertical gradient flat
+window.inactive.title.bg.color: #9cf298
+window.inactive.title.bg.colorTo: #9cf298
+
+!! Titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #080808
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #747474
+
+!! Window buttons
+window.*.button.*.bg: parentrelative
+window.active.button.*.hover.bg: flat splitvertical gradient border
+window.inactive.button.*.hover.bg: parentrelative
+window.*.button.*.pressed.bg: flat splitvertical gradient border
+
+window.active.button.*.hover.bg.color: #77ce73
+window.active.button.*.hover.bg.colorTo: #2ecd27
+window.active.button.*.hover.bg.border.color: #ab5d20
+
+window.active.button.*.pressed.bg.color: #2ecd27
+window.active.button.*.pressed.bg.colorTo: #77ce73
+window.active.button.*.pressed.image.color: #080808
+window.active.button.*.pressed.bg.border.color: #683913
+window.inactive.button.*.pressed.bg.color: #77ce73
+window.inactive.button.*.pressed.bg.colorTo: #2ecd27
+window.inactive.button.*.pressed.image.color: #080808
+window.inactive.button.*.pressed.bg.border.color: #683913
+
+window.active.button.*.image.color: #080808
+window.inactive.button.*.image.color: #606060
+
+!! Borders
+window.active.border.color: #181818
+window.inactive.border.color: #404040
+window.inactive.title.separator.color: #eeeee6
+border.width: 1
+padding.width: 2
+window.handle.width: 0
+window.active.client.color:  #181818
+window.inactive.client.color:  #CACAB6
+window.client.padding.width: 1
+window.client.padding.height: 1
+menu.overlap: 0
+
+!! Font shadows
+menu.items.font:shadow=y:shadowtint=30
+
+!! On-screen displays
+osd.bg: gradient vertical flat
+osd.bg.color: #77ce73
+osd.bg.colorTo: #2ecd27

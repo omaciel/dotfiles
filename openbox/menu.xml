@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+  <menu id="apps-accessories-menu" label="Accessories">
+      <item label="Tomboy" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/tomboy.png">
+      <action name="Execute">
+        <command>tomboy</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="GNOME RDP">
+      <action name="Execute">
+        <command>gnome-rdp</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <menu id="screenshot" label="Screenshot">
+      <item label="Window">
+        <action name="Execute">
+          <command>gnome-screenshot --window --delay=3</command>
+        </action>
+      </item>
+      <item label="Area">
+        <action name="Execute">
+          <command>gnome-screenshot --area --delay=3</command>
+        </action>
+      </item>
+      <item label="Desktop">
+        <action name="Execute">
+          <command>gnome-screenshot --delay=3</command>
+        </action>
+      </item>
+    </menu>
+    <item label="Calculator">
+      <action name="Execute">
+        <command>gnome-calculator</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Character Map">
+      <action name="Execute">
+        <command>gnome-character-map</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Ark File Archiver">
+      <action name="Execute">
+        <command>ark</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-editors-menu" label="Editors">
+    <item label="emacs">
+      <action name="Execute">
+        <command>emacs</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>emacs</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Geany">
+      <action name="Execute">
+        <command>geany</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>geany</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="GEdit">
+      <action name="Execute">
+        <command>gedit</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Eclipse">
+      <action name="Execute">
+        <command>eclipse</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-term-menu" label="Terminals">
+      <item label="Terminator" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/terminator.png">
+      <action name="Execute">
+        <command>terminator</command>
+      </action>
+    </item>
+    <item label="Gnome Terminal">
+      <action name="Execute">
+        <command>gnome-terminal</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Xterm">
+      <action name="Execute">
+        <command>xterm</command>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-net-menu" label="Internet">
+    <menu id="apps-net-browsers" label="Browsers">
+        <item label="Firefox" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/firefox.png">
+        <action name="Execute">
+          <command>firefox -P default -no-remote</command>
+          <startupnotify>
+            <enabled>yes</enabled>
+            <wmclass>Firefox</wmclass>
+          </startupnotify>
+        </action>
+      </item>
+      <item label="Chromium" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/chromium-browser.png">
+        <action name="Execute">
+          <command>chromium-browser</command>
+          <startupnotify>
+            <enabled>yes</enabled>
+            <wmclass>Chromium</wmclass>
+          </startupnotify>
+        </action>
+      </item>
+    </menu>
+    <item label="Transmission" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/transmission.png">
+      <action name="Execute">
+        <command>transmission-gtk</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Skype" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/skype.png">
+      <action name="Execute">
+        <command>skype</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Vinagre" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/vinagre.png">
+      <action name="Execute">
+        <command>vinagre</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Gobby" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/gobby.png">
+      <action name="Execute">
+        <command>gobby</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Pidgin" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/pidgin.png">
+      <action name="Execute">
+        <command>pidgin</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Polly" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/polly.png">
+      <action name="Execute">
+        <command>polly</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Hotot" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/hotot.png">
+      <action name="Execute">
+        <command>hotot</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Dropbox" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/dropbox.png">
+      <action name="Execute">
+        <command>dropbox start -i</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="XChat" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/xchat.png">
+      <action name="Execute">
+        <command>xchat</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-office-menu" label="Office" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/office.png">
+      <item label="Thunderbird" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/thunderbird.png">
+      <action name="Execute">
+        <command>thunderbird</command>
+      </action>
+    </item>
+    <item label="Evolution" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/evolution.png">
+      <action name="Execute">
+        <command>evolution</command>
+      </action>
+    </item>
+    <item label="Hamster">
+      <action name="Execute">
+        <command>hamster-time-tracker</command>
+      </action>
+    </item>
+    <item label="Planner" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/plan.png">
+      <action name="Execute">
+        <command>planner</command>
+      </action>
+    </item>
+    <item label="Calibre" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/calibre.png">
+      <action name="Execute">
+        <command>calibre</command>
+      </action>
+    </item>
+    <item label="PDF Viewer" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/acroread.png">
+      <action name="Execute">
+        <command>evince</command>
+      </action>
+    </item>
+    <item label="OpenOffice Base" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/ooo-base.png">
+      <action name="Execute">
+        <command>libreoffice3.4 --base</command>
+      </action>
+    </item>
+    <item label="OpenOffice Calc" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/ooo-calc.png">
+      <action name="Execute">
+        <command>libreoffice3.4 --calc</command>
+      </action>
+    </item>
+    <item label="OpenOffice Draw" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/ooo-draw.png">
+      <action name="Execute">
+        <command>libreoffice3.4 --draw</command>
+      </action>
+    </item>
+    <item label="OpenOffice Impress" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/ooo-impress.png">
+      <action name="Execute">
+        <command>libreoffice3.4 --impress</command>
+      </action>
+    </item>
+    <item label="OpenOffice Math" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/ooo-math.png">
+      <action name="Execute">
+        <command>libreoffice3.4 --math</command>
+      </action>
+    </item>
+    <item label="OpenOffice Writer" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/ooo-writer.png">
+      <action name="Execute">
+        <command>libreoffice3.4 --writer</command>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-development" label="Development">
+    <item label="Virt-Manager">
+      <action name="Execute">
+        <command>virt-manager</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>virt-manager</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="emacs">
+      <action name="Execute">
+        <command>emacs</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>emacs</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Eclipse">
+      <action name="Execute">
+        <command>eclipse</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>eclipse</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Lein">
+      <action name="Execute">
+        <command>terminator -T Lein -e lein</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Selenium">
+      <action name="Execute">
+        <command>terminator -T Selenium -e selenium</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>selenium</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Geany">
+      <action name="Execute">
+        <command>geany</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>geany</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="GEdit">
+      <action name="Execute">
+        <command>gedit</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="GNOME Dia">
+      <action name="Execute">
+        <command>dia</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="VMware Player">
+      <action name="Execute">
+        <command>vmplayer</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Evince">
+      <action name="Execute">
+        <command>evince</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Charles">
+      <action name="Execute">
+        <command>sh ~/Dropbox/Applications/charles/bin/charles.sh</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Glade">
+      <action name="Execute">
+        <command>glade-3</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-multimedia-menu" label="Multimedia">
+    <item label="Skype Call Recorder">
+      <action name="Execute">
+        <command>skype-call-recorder</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="EasyTag">
+      <action name="Execute">
+        <command>easytag</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Sound Recorder">
+      <action name="Execute">
+        <command>gnome-sound-recorder</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Radio Tray">
+      <action name="Execute">
+        <command>radiotray</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Spotify" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/spotify.png">
+      <action name="Execute">
+        <command>spotify</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Spotify (wine)" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/spotify.png">
+      <action name="Execute">
+        <command>wine "C:\Program Files\Spotify\spotify.exe"</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Banshee" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/banshee.png">
+      <action name="Execute">
+        <command>banshee</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Audacity">
+      <action name="Execute">
+        <command>audacity</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Rhythmbox">
+      <action name="Execute">
+        <command>rhythmbox</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Pulse Equalizer">
+      <action name="Execute">
+        <command>pulseaudio-equalizer-gtk</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Volume Control">
+      <action name="Execute">
+        <command>gnome-volume-control</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Thoggen">
+      <action name="Execute">
+        <command>thoggen</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="MPlayer">
+      <action name="Execute">
+        <command>gmplayer</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+          <wmclass>MPlayer</wmclass>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Totem">
+      <action name="Execute">
+        <command>totem</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+  <menu id="apps-graphics-menu" label="Graphics">
+    <item label="Nitrogen">
+      <action name="Execute">
+        <command>nitrogen</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Shotwell">
+      <action name="Execute">
+        <command>shotwell</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="F-Spot">
+      <action name="Execute">
+        <command>f-spot</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Inkscape">
+      <action name="Execute">
+        <command>inkscape</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Gimp">
+      <action name="Execute">
+        <command>gimp-2.7</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Gwenview">
+      <action name="Execute">
+        <command>gwenview</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Dia Diagram Editor">
+      <action name="Execute">
+        <command>dia</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+  </menu>
+  <menu id="system-menu" label="System">
+    <item label="Openbox Configuration Manager">
+      <action name="Execute">
+        <command>obconf</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Gnome Control Center">
+      <action name="Execute">
+        <command>gnome-control-center</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Manage Cups Printers">
+      <action name="Execute">
+        <command>xdg-open http://localhost:631/</command>
+        <startupnotify>
+          <enabled>no</enabled>
+          <icon>cups</icon>
+        </startupnotify>
+      </action>
+    </item>
+    <separator/>
+    <item label="Software Update">
+      <action name="Execute">
+        <command>gpk-update-viewer</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Add/Remove Software">
+      <action name="Execute">
+        <command>gpk-application</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Reconfigure Openbox">
+      <action name="Reconfigure"/>
+    </item>
+  </menu>
+  <menu id="root-menu" label="Openbox 3">
+    <separator label="Applications"/>
+    <menu id="apps-accessories-menu" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/accessories.png" />
+    <menu id="apps-development" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/development.png" />
+    <menu id="apps-graphics-menu" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/graphics.png" />
+    <menu id="apps-net-menu" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/internet-web-browser.png" />
+    <menu id="apps-office-menu" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/office.png" />
+    <menu id="apps-multimedia-menu" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/multimedia.png" />
+    <separator label="System"/>
+    <menu id="system-menu"/>
+    <item label="Terminator" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/terminator.png">
+      <action name="Execute">
+        <command>terminator</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <separator/>
+    <item label="Time Manager">
+      <action name="Execute">
+        <command>hamster-standalone</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="File Manager" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/nautilus.png">
+      <action name="Execute">
+        <command>nautilus --no-desktop --browser</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <separator/>
+    <item label="Lock">
+      <action name="Execute">
+        <command>gnome-screensaver-command -l</command>
+        <startupnotify>
+          <enabled>yes</enabled>
+        </startupnotify>
+      </action>
+    </item>
+    <item label="Log Out" icon="/home/omaciel/Dropbox/dotfiles/openbox/icons/gnome-logout.png">
+      <action name="Exit">
+        <prompt>yes</prompt>
+      </action>
+    </item>
+  </menu>
+</openbox_menu>
