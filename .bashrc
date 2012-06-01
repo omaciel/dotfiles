@@ -55,9 +55,10 @@ alias proj='xrandr --output VGA --mode 1024x768 --output LVDS --auto'
 alias int='xrandr --output VGA --off --output LVDS --auto'
 alias ext='xrandr --output VGA --auto --output LVDS --auto'
 
-alias synergyslaptop='synergys -f --config ~/hacking/dotfiles/config/synergy.conf'
-alias synergysdesktop='synergys -f --config ~/hacking/dotfiles/config/synergysdesktop.conf'
+alias synergyslaptop='synergys -f --config ~/hacking/dotfiles/synergy.conf'
+alias synergysdesktop='synergys -f --config ~/hacking/dotfiles/synergysdesktop.conf'
 alias synergyclaptop='synergyc -f 10.11.230.241'
+alias synergycmac='synergyc -f 192.168.1.4'
 
 findandreplace() {
     find ./ -type f -exec sed -i 's/$1/$2' {} ;
