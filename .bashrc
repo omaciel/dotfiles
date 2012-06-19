@@ -26,13 +26,33 @@ export QEMU_AUDIO_DRV=pa
 export HEROKU_SSL_VERIFY=disable
 
 # User specific aliases and functions
-alias ls='ls --color -F'
 alias grep='grep --color=tty -d skip'
+##Package Management 
+alias update='sudo yum update' 
+alias install='sudo yum install' 
+alias remove='sudo yum remove' 
+alias pkgsearch='yum search' 
+
+##Frequently Used Directories 
+alias home='cd ~' 
+alias desktop='cd ~/Desktop' 
+alias downloads='cd ~/Downloads' 
+alias dropbox='cd ~/Dropbox' 
+
+##Misc Shortcuts 
+alias df='df -h' 
+alias ls='ls --color -F' 
+alias lsa='ls -alF --color=auto' 
+alias lsl='ls -lF --color=auto' 
+alias rm='rm -i' 
+alias mv='mv -i' 
+alias cp='cp -i' 
+alias un='tar -zxvf' 
 
 alias clonefoo="git clone gnome:$1"
 alias po='msgfmt -cvo /dev/null pt_BR.po'
 alias merge='msgmerge --update --previous pt_BR.po *.pot && po'
-alias update='intltool-update --pot && intltool-update pt_BR'
+#alias update='intltool-update --pot && intltool-update pt_BR'
 alias liner='msgcat pt_BR.po -o pt_BR.po'
 alias xfce='svn ci -m "Updated Brazilian Portuguese translation."'
 alias gnomeci='git commit -a -m "Updated Brazilian Portuguese translation."'
