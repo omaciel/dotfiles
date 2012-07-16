@@ -99,3 +99,8 @@
 ;;browse link shortcut
 (global-set-key (kbd "C-c M-b") 'browse-url-at-point)
 
+(defun datestamp ()
+  (interactive)
+  (call-process "date" nil t))
+
+(global-set-key (kbd "<f6>") 'datestamp)
