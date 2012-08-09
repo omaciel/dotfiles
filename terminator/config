@@ -1,13 +1,11 @@
 [global_config]
-  enabled_plugins = CustomCommandsMenu, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler
+  enabled_plugins = ,
 [keybindings]
 [profiles]
   [[default]]
-    foreground_color = "#ffffff"
-    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
-    font = DejaVu Sans Mono 9
     scrollback_lines = 50000
-    use_system_font = False
+    use_theme_colors = False
+    palette = "#323232:#D25252:#7FE173:#FFC66D:#4098FF:#F57FFF:#BED6FF:#EEEEEC:#535353:#F07070:#9DFF90:#FFE48B:#5EB7F7:#FF9DFF:#DCF4FF:#FFFFFF"
 [layouts]
   [[default]]
     [[[child1]]]
@@ -16,22 +14,4 @@
     [[[window0]]]
       type = Window
       parent = ""
-  [[New Layout]]
-    [[[child0]]]
-      position = 30:290
-      type = Window
-      order = 0
-      parent = ""
-      size = 657, 427
-    [[[terminal1]]]
-      profile = default
-      command = irc
-      type = Terminal
-      order = 0
-      parent = child0
 [plugins]
-  [[CustomCommandsMenu]]
-    [[[irc]]]
-      command = irc
-      enabled = True
-      name = irc
