@@ -3,9 +3,9 @@
 [keybindings]
 [profiles]
   [[default]]
+    palette = "#323232:#d25252:#7fe173:#ffc66d:#4098ff:#00aa00:#bed6ff:#eeeeec:#535353:#f07070:#9dff90:#ffe48b:#5eb7f7:#00ff00:#dcf4ff:#ffffff"
     scrollback_lines = 50000
     use_theme_colors = False
-    palette = "#323232:#D25252:#7FE173:#FFC66D:#4098FF:#F57FFF:#BED6FF:#EEEEEC:#535353:#F07070:#9DFF90:#FFE48B:#5EB7F7:#FF9DFF:#DCF4FF:#FFFFFF"
 [layouts]
   [[default]]
     [[[child1]]]
