@@ -168,10 +168,14 @@ create_diary() {
 alias diary='create_diary'
 alias cidiary='hg ci -m "Entry for `date +"%d-%m-%Y"`."'
 
-alias syncdesk='rsync -av -e ssh ~/.xchat2 cozinha:backup/chatlogs-desktop/.'
-alias resyncdesk='rsync -av -e ssh cozinha:backup/chatlogs-desktop/.xchat2 ~/.'
+alias startvpn='./Dropbox/startvpn.sh  udp'
+alias syncdesk='rsync -av -e ssh ~/Documents cozinha:backup/.'
+alias resyncdesk='rsync -av -e ssh cozinha:backup/Documents ~/.'
 alias synclap='rsync -av -e ssh ~/.xchat2/xchatlogs cozinha:backup/chatlogs-laptop/.'
 alias syncdrop='rsync -av -e ssh ~/Dropbox cozinha:backup/.'
+
+# YOLO
+alias vim='emacs -nw'
 
 #git remote add github git@github.com:omaciel/billreminder.git
 
