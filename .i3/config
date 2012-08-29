@@ -115,8 +115,8 @@ bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+E exit
 
-# screen locker (first move to "safe" workspace without any chat app)
-bindsym Control+Mod1+l exec i3-msg workspace 1 && i3lock -c 111111 -d
+# screen locker
+bindsym Control+Mod1+l exec i3lock -p default -d -n
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -154,7 +154,8 @@ bindsym $mod+m move scratchpad
 bindsym $mod+o scratchpad show
 
 # Start this apps
-exec /usr/libexec/gnome-settings-daemon
+#exec /usr/libexec/gnome-settings-daemon
+exec --no-startup-id nm-applet
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
