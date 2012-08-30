@@ -157,7 +157,7 @@ for_window [title="^\(800\)"] floating enable
 # Empathy
 for_window [title="^Contact List"] floating enable
 assign [class="^Empathy$"] empathy
-#for_window [class="^Empathy$"] floating enable
+for_window [class="^Empathy$"] floating enable
 # Generic About dialogs
 for_window [title="^About"] floating enable
 
