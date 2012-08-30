@@ -118,6 +118,10 @@ bindsym $mod+Shift+E exit
 # screen locker
 bindsym Control+Mod1+l exec i3lock -p default -d -n
 
+# Volume control
+bindsym $mod+comma  exec /usr/bin/pactl set-sink-volume 0 -- '-5%'
+bindsym $mod+period exec /usr/bin/pactl set-sink-volume 0 -- '+5%'
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -147,7 +151,15 @@ bindsym $mod+minus mode "resize"
 # get elluminate working
 for_window [title="^Elluminate Live!"] floating enable
 for_window [title="^Application Sharing"] floating enable
-for_window [class="^net-sourceforge-jnlp-runtime-Boot$" title="^Downloading"] floating enable
+for_window [title="^Downloading"] floating enable
+# Google Voice phone window
+for_window [title="^\(800\)"] floating enable
+# Empathy
+for_window [title="^Contact List"] floating enable
+assign [class="^Empathy$"] empathy
+#for_window [class="^Empathy$"] floating enable
+# Generic About dialogs
+for_window [title="^About"] floating enable
 
 # scratch workspace
 bindsym $mod+m move scratchpad
@@ -156,6 +168,7 @@ bindsym $mod+o scratchpad show
 # Start this apps
 #exec /usr/libexec/gnome-settings-daemon
 exec --no-startup-id nm-applet
+exec --no-startup-id gnome-sound-applet
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
