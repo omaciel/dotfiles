@@ -1,5 +1,5 @@
 [user]
-	name = Og B. Maciel
+    name = Og B. Maciel
     email = ogmaciel@gnome.org
 [color]
     ui = true
@@ -21,3 +21,5 @@
     timeline = log --graph --branches --pretty=oneline --decorate
 [log]
     decorate = short
+[core]
+    autocrlf = input
