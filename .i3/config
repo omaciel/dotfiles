@@ -153,7 +153,7 @@ for_window [title="^Elluminate Live!"] floating enable
 for_window [title="^Application Sharing"] floating enable
 for_window [title="^Downloading"] floating enable
 # Google Voice phone window
-for_window [title="^\(800\)"] floating enable
+for_window [window_role="pop-up"] floating enable; floating_maximum_size 300 x 300
 # Empathy
 for_window [window_role="contact_list"] floating enable; floating_maximum_size 300 x 300
 #assign [class="^Empathy$"] empathy
