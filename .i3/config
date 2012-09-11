@@ -155,9 +155,9 @@ for_window [title="^Downloading"] floating enable
 # Google Voice phone window
 for_window [title="^\(800\)"] floating enable
 # Empathy
-for_window [title="^Contact List"] floating enable
-assign [class="^Empathy$"] empathy
-for_window [class="^Empathy$"] floating enable
+for_window [window_role="contact_list"] floating enable; floating_maximum_size 300 x 300
+#assign [class="^Empathy$"] empathy
+for_window [window_role="chat"] floating enable; floating_maximum_size 300 x 300
 # Generic About dialogs
 for_window [title="^About"] floating enable
 
