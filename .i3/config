@@ -13,6 +13,9 @@ set $mod Mod4
 
 force_xinerama yes
 
+# Do not change focus based on Mouse movement
+focus_follows_mouse no
+
 # font for window titles. ISO 10646 = Unicode
 font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 
