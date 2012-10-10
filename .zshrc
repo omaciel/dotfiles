@@ -142,4 +142,4 @@ PYTHONPATH=$HOME:$HOME/hacking
 
 export PATH
 export PYTHONPATH
-export EDITOR=emacs
+export EDITOR=vim
