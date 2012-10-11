@@ -137,9 +137,10 @@ alias syncdrop='rsync -av -e ssh ~/Dropbox cozinha:backup/.'
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 rvm use 1.9.3
 
-PATH=$PATH:$HOME/bin
-PYTHONPATH=$HOME:$HOME/hacking
-
-export PATH
-export PYTHONPATH
 export EDITOR=vim
+export SDL_AUDIODRIVER=pulse
+export PYTHONPATH=/home/omaciel/hacking:/home/omaciel/Dropbox/Hacking:/home/omaciel
+export PATH=$PATH:$HOME/.rvm/bin:$HOME/Dropbox/Applications:$HOME/bin
+export QEMU_AUDIO_DRV=pa
+export HEROKU_SSL_VERIFY=disable
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/jre/lib/amd64/
