@@ -4,9 +4,11 @@ CURDIR=`pwd`
 
 cd
 
-ln -s $CURDIR/.bash_profile .
-
-ln -s $CURDIR/.bashrc .
+su -c "yum install git zsh -y"
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+ln -s $CURDIR/.zshrc .
+ln -s $CURDIR/.oh-my-zsh .
+chsh -s /bin/zsh
 
 ln -s $CURDIR/.gitconfig .
 
@@ -18,7 +20,6 @@ ln -s $CURDIR/.scrobbler-helper.conf .
 
 ln -s $CURDIR/.sqliterc .
 
-rm .vim
 ln -s $CURDIR/.vim .
 
 ln -s $CURDIR/.emacs.d
@@ -32,5 +33,3 @@ ln -s $CURDIR/openbox .
 ln -s $CURDIR/pianobar .
 
 ln -s $CURDIR/terminator .
-#rm tint2
-#ln -s $CURDIR/tint2 .
