@@ -23,3 +23,5 @@
     decorate = short
 [core]
     autocrlf = input
+[push]
+	default = matching

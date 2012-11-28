@@ -26,10 +26,10 @@ set autoindent		" Autoindentation
 set pastetoggle=<F10>
 
 " Settings for VimClojure
-let vimclojure#HighlightBuiltins = 1
-let vimclojure#ParenRainbow = 1
+"let vimclojure#HighlightBuiltins = 1
+"let vimclojure#ParenRainbow = 1
 " Send entire file to repl
-nmap <C-m> ggVG<C-c><C-c>
+"nmap <C-m> ggVG<C-c><C-c>
 
 
 :nmap <C-d> :call Pylyglot()<CR>
