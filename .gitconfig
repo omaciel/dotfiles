@@ -23,5 +23,8 @@
     decorate = short
 [core]
     autocrlf = input
+    whitespace = trailing-space,space-before-tab
 [push]
-	default = matching
+    default = matching
+[apply]
+    whitespace = fix
