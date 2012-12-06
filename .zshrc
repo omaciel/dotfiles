@@ -52,7 +52,7 @@ alias irc2='ssh irc2'
 alias home='ssh home'
 
 alias macme='sudo macchanger --mac=00:19:D2:44:27:E7 wlan0'
-alias updateall='sudo conary updateall --no-interactive'
+#alias updateall='sudo conary updateall --no-interactive'
 
 alias cleanpyc='find . -iname "*.pyc" | xargs rm'
 alias proj='xrandr --output VGA --mode 1024x768 --output LVDS --auto'
@@ -72,6 +72,11 @@ alias shell='python manage.py shell'
 alias dbshell='python manage.py dbshell'
 alias pasteit='python ~/Dropbox/Hacking/pastebin.py'
 
+# Cleans up ssh key
+alias cleankey="keygone"
+keygone() {
+    sed -i -e "/^$1.*/D" ~/.ssh/known_hosts
+}
 
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
