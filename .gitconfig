@@ -24,6 +24,7 @@
 [core]
     autocrlf = input
     whitespace = trailing-space,space-before-tab
+    pager = less -r
 [push]
     default = matching
 [apply]
