@@ -1,0 +1,47 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/omaciel/hacking/dotfiles/" . ".emacs.d/")
+ ("/home/omaciel/hacking/" . "dotfiles/")
+ ("/home/omaciel/" . "hacking/")
+ ("/home/" . "omaciel/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/omaciel/.emacs.d/"
+ "/home/omaciel/hacking/dotfiles/.emacs.d/"
+ "/home/omaciel/hacking/notes/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "omaciel.el"
+ "movies.log"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/omaciel/.emacs.d/" (20703 26229) ".#init.el" "auto-save-list/" "../" "init.el" "./" "init.el~" "backups/" "elpa/")
+
+ ("/home/omaciel/hacking/dotfiles/.emacs.d/" (20673 20533) "snippets/" "../" "init.el" "omaciel/" "./" "omaciel.el")
+
+ ("/home/omaciel/hacking/notes/" (20703 22974) "../" "./" ".git/" "movies.log" "notes.log")
+
+ ("/home/omaciel/hacking/dotfiles/" (20703 25661) ".vimrc" "synergysdesktop.conf" ".vim/" ".i3status.conf" ".emacs.d/" ".gitignore" ".i3/" ".hgrc" "../" "terminator/" ".oh-my-zsh/" "./" ".git/" "openbox/" ".bashrc" ".bash_profile" ".gitconfig" ".sqliterc" "synergy.conf" "clean_sym_dropbox.sh" ".zshrc")
+
+ ("/home/omaciel/hacking/" (20692 31055) "notes/" "../" "./" "gnome-weather/" "dotfiles/" "ogmaciel.com/" "ogmaciel.comfoo/")
+
+ ("/home/" (20673 17456) "../" "lost+found/" "omaciel/" "./")
+
+ ("/home/omaciel/" (20703 25667) ".pki/" "Templates/" ".esd_auth" ".vimrc" "Music/" ".gtk-bookmarks" ".gnome-rdp.db" ".vim/" "oldemacs/" ".emacs.d/" ".mozilla/" "Documents/" ".zsh_history" ".zsh-update" ".hgrc" "../" ".oh-my-zsh/" "Videos/" "Pictures/" ".gconf/" "./" ".scrobbler-helper.conf" "Desktop/" ".bashrc" ".bash_profile" ".local/" ".gitconfig" ".sqliterc" ".ssh/" "hacking/" ".cache/" ".config/" ".pulse/" "Public/" ".pulse-cookie" ".viminfo" ".bash_history" ".zcompdump" ".zshrc" ".gnupg/" ".bash_logout" "Downloads/" ".ICEauthority")
+
+ ("/home/omaciel/.emacs.d/elpa/" (20703 25895) "smex-2.0/" "elisp-slime-nav-0.3/" "../" "paredit-22/" "starter-kit-lisp-2.0.3/" "./" "find-file-in-project-3.2/" "starter-kit-2.0.3/" "archives/" "idle-highlight-mode-1.1.2/" "magit-1.2.0/" "ido-ubiquitous-1.6/")
+
+ ("/home/omaciel/.emacs.d/elpa/starter-kit-lisp-2.0.3/" (20703 25895) "starter-kit-lisp-pkg.elc" "starter-kit-lisp-autoloads.el" "starter-kit-lisp.elc" "starter-kit-lisp-pkg.el" "../" "./" "starter-kit-lisp.el")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
