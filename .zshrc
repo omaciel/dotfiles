@@ -135,7 +135,7 @@ alias syncdrop='rsync -av -e ssh ~/Dropbox cozinha:backup/.'
 
 # YOLO
 #alias vim='emacs -nw'
-#alias emacs='emacs -nw'
+alias emacs='emacs -nw'
 
 #git remote add github git@github.com:omaciel/billreminder.git
 
