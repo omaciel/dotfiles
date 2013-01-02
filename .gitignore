@@ -26,3 +26,5 @@
 .emacs.d/backups/
 .emacs.d/elpa/
 .emacs.d/places
+personal_emacs.d/.smex-items
+personal_emacs.d/auto-save-list
