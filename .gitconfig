@@ -10,6 +10,10 @@
 
 [url "ssh://ogmaciel@git.gnome.org/git/"]
     insteadof = gnome:
+[url "git@bitbucket.org:omaciel/"]
+    insteadof = bb:
+[url "git://github.com/omaciel/"]
+    insteadof = github:
 [alias]
     up = pull --rebase
     ci = commit
