@@ -28,3 +28,4 @@
 .emacs.d/places
 personal_emacs.d/backups/*
 personal_emacs.d/.smex-items
+personal_emacs.d/auto-save-list*
