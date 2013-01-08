@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/omaciel/Dropbox'
 let g:netrw_dirhist_2='/home/omaciel/.rvm/gems/ruby-1.9.3-p0'
 let g:netrw_dirhist_3='/home/omaciel/.rvm/gems/ruby-1.9.3-p0/gems'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/omaciel/.rvm/gems/ruby-1.9.3-p0/specifications'
 let g:netrw_dirhist_6='/home/omaciel/hacking/BookWorm/lib/tasks'
 let g:netrw_dirhist_7='/home/omaciel/hacking/ar/book1'
 let g:netrw_dirhist_8='/home/omaciel/hacking/notes'
+let g:netrw_dirhist_9='/home/omaciel/rpmbuild/SPECS'

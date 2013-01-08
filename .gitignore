@@ -26,9 +26,11 @@
 .emacs.d/backups/
 .emacs.d/elpa/
 .emacs.d/places
-<<<<<<< HEAD
+.emacs.d/auto-save-list/
+.emacs.d/url/
 personal_emacs.d/.smex-items
-personal_emacs.d/auto-save-list
-personal_emacs.d/backups/*
-personal_emacs.d/.smex-items
-personal_emacs.d/auto-save-list*
+personal_emacs.d/ac-comphist.dat
+personal_emacs.d/backups/
+personal_emacs.d/elpa
+personal_emacs.d/places
+.vim/.netrwhist
