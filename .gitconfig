@@ -12,8 +12,8 @@
     insteadof = gnome:
 [url "git@bitbucket.org:omaciel/"]
     insteadof = bb:
-[url "git://github.com/omaciel/"]
-    insteadof = github:
+[url "git@github.com:omaciel/"]
+    insteadof = gh:
 [alias]
     up = pull --rebase
     ci = commit
