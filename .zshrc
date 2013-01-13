@@ -128,6 +128,7 @@ alias diary='create_diary'
 alias cidiary='hg ci -m "Entry for `date +"%d-%m-%Y"`."'
 
 alias startvpn='./Dropbox/startvpn.sh  udp'
+alias stopvpn='sudo killall openvpn 2>/dev/null'
 alias syncdesk='rsync -av -e ssh ~/Documents cozinha:backup/.'
 alias resyncdesk='rsync -av -e ssh cozinha:backup/Documents ~/.'
 alias synclap='rsync -av -e ssh ~/.xchat2/xchatlogs cozinha:backup/chatlogs-laptop/.'
@@ -150,4 +151,5 @@ export PATH=$PATH:$HOME/.rvm/bin:$HOME/Dropbox/Applications:$HOME/bin
 export QEMU_AUDIO_DRV=pa
 export HEROKU_SSL_VERIFY=disable
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/jre/lib/amd64/
-export PATH="$PATH:/usr/local/smlnj-110.75/bin"
+export PATH="$PATH:/usr/local/smlnj-110.75/bin" # Mac
+export PATH="$PATH:/usr/share/smlnj" # Linux
