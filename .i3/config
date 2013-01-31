@@ -119,7 +119,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exit
 
 # screen locker
-bindsym Control+Mod1+l exec i3lock -p default -d -n
+bindsym Control+Mod1+l exec i3lock -p default -d -n -c 000000
 
 # Volume control
 bindsym $mod+comma  exec /usr/bin/pactl set-sink-volume 0 -- '-5%'
