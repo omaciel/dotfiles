@@ -153,3 +153,4 @@ export HEROKU_SSL_VERIFY=disable
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/jre/lib/amd64/
 export PATH="$PATH:/usr/local/smlnj-110.75/bin" # Mac
 export PATH="$PATH:/usr/share/smlnj" # Linux
+export GPGKEY=D5CFC202
