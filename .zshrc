@@ -146,7 +146,7 @@ rvm use 1.9.3
 
 export EDITOR=vim
 export SDL_AUDIODRIVER=pulse
-export PYTHONPATH=/home/omaciel/hacking:/home/omaciel/Dropbox/Hacking:/home/omaciel
+#export PYTHONPATH=/home/omaciel/hacking:/home/omaciel/Dropbox/Hacking:/home/omaciel
 export PATH=$PATH:$HOME/.rvm/bin:$HOME/Dropbox/Applications:$HOME/bin
 export QEMU_AUDIO_DRV=pa
 export HEROKU_SSL_VERIFY=disable
@@ -154,3 +154,5 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/jre/lib/amd64/
 export PATH="$PATH:/usr/local/smlnj-110.75/bin" # Mac
 export PATH="$PATH:/usr/share/smlnj" # Linux
 export GPGKEY=D5CFC202
+
+setxkbmap -layout us,br -option grp:alt_shift_toggle
