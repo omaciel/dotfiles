@@ -76,7 +76,7 @@ alias pasteit='python ~/Dropbox/Hacking/pastebin.py'
 # Cleans up ssh key
 alias cleankey="keygone"
 keygone() {
-    sed -i -e "/^$1.*/D" ~/.ssh/known_hosts
+    sed -i -e "/$1.*/D" ~/.ssh/known_hosts
 }
 
 parse_git_branch() {
