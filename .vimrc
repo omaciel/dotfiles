@@ -1,18 +1,53 @@
-set sw=4
-set ts=4
-set ai
-set et
-set sts=4
+" Pathogen plugin: https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
+
+" Emacs-like commands
+:cnoremap <C-a>  <Home>
+:cnoremap <C-b>  <Left>
+:cnoremap <C-f>  <Right>
+:cnoremap <C-d>  <Delete>
+:cnoremap <M-b>  <S-Left>
+:cnoremap <M-f>  <S-Right>
+:cnoremap <M-d>  <S-right><Delete>
+:cnoremap <Esc>b <S-Left>
+:cnoremap <Esc>f <S-Right>
+:cnoremap <Esc>d <S-right><Delete>
+:cnoremap <C-g>  <C-c>
+
+" Searching
+:set ignorecase             " Ignore case in search patterns
+:set hlsearch               " Highlight match while typing search pattern
+:set incsearch              " Do incremental searches
+:set smartcase              " /foo matches FOO and fOo, but /FOO only matches the former
+:nmap \q :nohlsearch<CR>    " Turns off highlighted search
+
+" Buffers
+:nmap <C-e> :e#<CR>         " Switch to previously edited buffer
+:nmap <C-n> :bnext<CR>
+:nmap <C-p> :bprev<CR>
+:nmap <C-x>f :CtrlP             " Uses http://kien.github.com/ctrlp.vim/
+:nmap <C-x>b :CtrlPBuffer<CR>   " Uses http://kien.github.com/ctrlp.vim/
+:let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\]).(hg|git|bzr)($|[/\\])'
+
+" Force vim to use 256-color support
+if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+    set t_Co=256
+endif
+
+" Tabs, tabstops, and softtabs
+:set shiftwidth=4
+:set tabstop=4
+:set softtabstop=4
+:set expandtab
+
+:set ai
 syntax on
 "set number
-set bg=dark
-set nocompatible
+:set bg=dark
+:set nocompatible
 
 " Lots of these things are set by default, but I just want to make sure...
 "set foldenable		"set to display all folds open
-set ignorecase 		" Ignore case in search patterns
-set hlsearch		" Highlight match while typing search pattern
-set incsearch 		" Do incremental searches
 set showcmd		" Show (partial) command in status line
 set ruler		" Turn on ruler
 "set number		" Show line numbers
@@ -42,7 +77,7 @@ set pastetoggle=<F10>
 "map <F8> <Esc>:1,$!xmllint --format -
 map <F12> <Esc>:%!gpg --encrypt --armor --recipient ogmaciel@gnome.org<CR><CR><C-l>
 map <S-F12> <Esc>:%!gpg --decrypt 2>/dev/null<CR><CR><C-l>
-map <F9> :nohl<CR>
+"map <F9> :nohl<CR>
 map <F6> <Esc>Oimport epdb; epdb.st()<Esc>
 map <F7> gg<Esc>:r !date +\%Y-\%m-\%d<Cr>i - Og Maciel<Esc>
 map <F5> gg<Esc>:r !date +\%Y-\%m-\%d<Cr>:r ~/commit.tpl<Cr><Esc>kJ4ddggP3jo<Esc>k$a
